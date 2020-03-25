@@ -7,7 +7,7 @@ command as follows:
 
 ## Kibana Console
 
-- command input
+- command input: Checking the cluster health.
 
 ```http
 
@@ -44,7 +44,7 @@ GET /_cluster/health
 curl -XGET "http://localhost:9200/_cluster/health"
 ```
 
-- command input:
+- command input: Updating a document
 
 ```http
 
@@ -82,4 +82,4 @@ POST /products/_doc
 curl -XPOST "http://localhost:9200/products/_doc" -H 'Content-Type: application/json' -d'{  "name": "Coffee Maker",  "price": 64,  "in_stock": 10}'
 ```
 
-next command ...
+repeat ... next command ... etc
